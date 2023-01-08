@@ -1,0 +1,191 @@
+{
+	"FriendsUrl": "https://pixelgunserver.com/~game/action.php",
+	"_FriendsUrl":"http://192.168.1.206:9000/~rilisoft/action.php",
+	"MaxFriendCount": 100,
+	"MaxMemberClanCount": 20,
+	"TimeUpdateFriendInfo": 30,
+	"TimeUpdateOnlineInGame": 12,
+	"TimeUpdateInfoInProfile": 25,
+	"TimeUpdateStartCheckIfNullResponce": 10,
+	"TimeUpdateLeaderboardIfNullResponce": 20,
+	"TimeUpdatePixelbookInfo": 900,
+	"TimeWaitLoadPossibleFriends": 7,
+	"PauseUpdateLeaderboard": 60,
+	"HistoryPrivateMessageLength": 20,
+
+	"FacebookLimits" : {
+		"GreenLimit" : 5,
+		"RedLimit" : 2
+	},
+	"TwitterLimits" : {
+		"GreenLimit" : 5,
+		"RedLimit" : 2,
+		"MultyWinLimit" : 1,
+		"ArenaLimit" : 1
+	},
+
+	"EnableLogForIDs" : ["104709874", "120677475", "119947559", "126026976" , "139574735", "12", "158267626"],
+
+	"CheaterDetectParameters" : {
+		"Paying" : {
+			"Coins" : 18000,
+			"GemsCurrency" : 10800
+		},
+		"NonPaying" : {
+			"Coins" : 50000,
+			"GemsCurrency" : 900
+		}
+	},
+		"WaitForOpponnents" : 35,
+		"WaitForOpponnentsFull" : 35,
+		"NurseryUnlockLevel": -1,
+		"BattleRoyale":{ "minCountPlayers":5, "maxCountPlayers":30, "startTimer":30 },
+   "BattleRoyaleV4":{"5009":{ "minCountPlayers":10, "maxCountPlayers":30, "startTimer":30 }, "5011":{ "minCountPlayers":10, "maxCountPlayers":100, "startTimer":35 }, "5538":{ "minCountPlayers":10, "maxCountPlayers":30, "startTimer":30 }, "5039":{ "minCountPlayers":10, "maxCountPlayers":30, "startTimer":30 }},
+    "RespawnDelayParameters":{"0":0, "2":0, "4":0, "5":0, "19":3},
+	"RespawnDelayParameters_v2":{"0":0.05, "1":0.05, "2":0.05, "4":0.05, "5":0.05, "8":0.05, "19":3},
+
+	"PlayerControlsDynamicFPS":
+    {
+    	"joystickInertionMovements":
+    	{
+    		"speedInsideZone":13,
+		    "speedOutsideZone":0.1,
+            "zoneValue":1
+		},
+
+		"joystickInertionJetpack":
+		{
+		   "speedInsideZone":4,
+           "speedOutsideZone":4,
+           "zoneValue":0.5
+		},
+
+        "joystickInertionJump":
+		{
+			"speedInsideZone":2,
+            "speedOutsideZone":2.5,
+            "zoneValue":0.5
+		},
+
+		"speedModifierInShooting":0.8,
+		"jumpDynamicModifier":1.15,
+		"jumpForceModifier":1,
+
+		"fallDamageMinHeight":10000,
+		"fallDamageMaxHeight":10000,
+
+		"ballisticBullets":1,
+		"baseBulletGravity":0,
+		"sniperBulletGravity":0,
+
+		"enableRecoil":1,
+		"enableScopeMoving":1,
+		"enableFovChanging":0,
+
+		"weaponChangeSpeed":187,
+
+		"selfRocketRadius":0.8,
+		"selfRocketDamage":0.7,
+		"rocketJumpImpulseModifier":0.6
+    },
+
+	"PlayerControlsDynamicBR":
+    {
+    	"joystickInertionMovements":
+    	{
+    		"speedInsideZone":5,
+		    "speedOutsideZone":5,
+            "zoneValue":0.5
+		},
+		"joystickInertionGlider":
+		{
+		   "speedInsideZone":2,
+           "speedOutsideZone":2,
+           "zoneValue":0.5
+		},
+        "joystickInertionJump":
+		{
+			"speedInsideZone":2,
+            "speedOutsideZone":2.5,
+            "zoneValue":0.5
+		},
+
+		"jumpDynamicModifier":1,
+		"jumpForceModifier":1,
+
+		"fallDamageMinHeight":12,
+		"fallDamageMaxHeight":35,
+
+		"ballisticBullets":1,
+		"baseBulletGravity":0,
+		"sniperBulletSpeed":400,
+		"sniperBulletGravity":0.2,
+
+		"enableRecoil":1,
+		"enableScopeMoving":1,
+		"enableFovChanging":0,
+
+		"selfRocketRadius":0.8,
+		"selfRocketDamage":0.7,
+		"rocketJumpImpulseModifier":0.6
+    },
+
+    "GameModePlayerSettingsDependence_v2":
+    {
+    },
+
+    "MoveSchemePlayerSettings":
+    {
+    	"1":
+    	{
+    		"baseBulletGravity":0,
+			"sniperBulletGravity":0,
+			"enableRecoil":1,
+			"enableScopeMoving":1,
+			"enableFovChanging":0
+    	},
+		"2":
+		{
+			"selfRocketRadius":0.8,
+			"selfRocketDamage":0.7
+		}
+    },
+
+    "MoveSchemePlayerSettingsDependence_v2":
+    {
+    	"Realistic":
+    	{
+    		"baseBulletBallistic":1,
+    		"sniperBulletBallistic":1,
+    		"baseBulletSpeed":240,
+    		"baseBulletGravity":0.1,
+    		"sniperBulletSpeed":240,
+    		"sniperBulletGravity":0.1
+    	},
+		"Cyber":
+		{
+		}
+    },
+
+    "RecoilAndScopeSettings":
+    {
+    	"maxRecoilScopeForceMoveSpeed":12,
+    	"recoilForceImpulseModifierSniperInScope":1.2,
+    	"recoilForceImpulseModifierSemiautoInScope":12,
+			"maxRecoilScopeForceMoveSpeedSniper":12,
+			"recoilForceImpulseModifierSniper":1.2
+    },
+
+    "AutoStartInMatch": 1,
+    "AutoStartNextMatchTime": -1,
+
+    "AutoStartInMatchV2": 1,
+    "AutoStartNextMatchTimeV2": 15,
+
+	"inhouseAnalytics.enabled": 1,
+	"inhouseAnalytics.url": "https://clickhouse1.lightmap.ru/v2/events",
+	"inhouseAnalytics.delayInSeconds": 5,
+	"inhouseAnalytics.intervalInSeconds": 60,
+	"inhouseAnalytics.storageLimit": 30,
+	"inhouseAnalytics.memoryLimit": 50
+}
