@@ -1,0 +1,390 @@
+{
+	"FriendsUrl": "https://pixelgunserver.com/~game/action.php",
+	"_FriendsUrl":"https://pixelgun-dev2.myghtyblock.com/~rilisoft/action",
+	"MaxFriendCount": 100,
+	"MaxMemberClanCount": 20,
+	"TimeUpdateFriendInfo": 7,
+	"TimeUpdateOnlineInGame": 20,
+	"TimeUpdateInfoInProfile": 20,
+	"TimeUpdateStartCheckIfNullResponce": 10,
+	"TimeUpdateLeaderboardIfNullResponce": 20,
+	"TimeUpdatePixelbookInfo": 900,
+	"TimeWaitLoadPossibleFriends": 7,
+	"PauseUpdateLeaderboard": 1,
+	"HistoryPrivateMessageLength": 50,
+	"NurseryUnlockLevel": -1,
+	"OutgoingInviteTimeoutMinutes":1.2,
+
+	"FacebookLimits" : {
+		"GreenLimit" : 10,
+		"RedLimit" : 8
+	},
+	"TwitterLimits" : {
+		"GreenLimit" : 10,
+		"RedLimit" : 8,
+		"MultyWinLimit" : 2,
+		"ArenaLimit" : 2
+	},
+
+	"CheaterDetectParameters" : {
+		"Paying" : {
+			"Coins" : 18000,
+			"GemsCurrency" : 10800
+		},
+		"NonPaying" : {
+			"Coins" : 50000,
+			"GemsCurrency" : 900
+		}
+	},
+
+	"JoinBaseResponseOn":[ "" ],
+	"X3BankEnable":0,
+	"ABTestBankEnable": 0,
+	"EnableLogForIDs" : [ "199072457", "186988932", "160574645", "173094688", "169047950", "107254047", "113584883","114797083","120677475","119947559", "147342171", "142151100", "154316380", "161534347", "174462172"],
+	"EnableWebSocketLogForIDs" : [ "29", "174462172" ],
+    "EnableFpsCounterIds": ["117969", "118993"],
+		"WaitForOpponnents" : 35,
+		"WaitForOpponnentsFull" : 35,
+	"RespawnDelayParameters":{"0":0, "1":0, "2":0.05, "4":0, "5":0, "8":0, "19":3},
+	"RespawnDelayParameters_v2":{"0":0.05, "1":0.05, "2":0.05, "4":0.05, "5":0.05, "8":0.05, "19":3},
+	"RespawnDelayRealisticSetting":5,
+	"Photon":{"167724216":"192.168.2.228"},
+	"ZoneSettings" : {
+		"battle_royale" :
+		{
+			"startZoneTimeShow" : 30,
+			"startZoneTimeStay" : 45,
+			"zones" : [
+				{
+					"radius":120,
+					"timeStay":45,
+					"timeMove":25,
+					"damage":1
+				},
+				{
+					"radius":100,
+					"timeStay":30,
+					"timeMove":10,
+					"damage":2
+				},
+				{
+					"radius":50,
+					"timeStay":30,
+					"timeMove":10,
+					"damage":4
+				},
+				{
+					"radius":25,
+					"timeStay":20,
+					"timeMove":7,
+					"damage":6
+				},
+				{
+					"radius":10,
+					"timeStay":15,
+					"timeMove":5,
+					"damage":10
+				},
+				{
+					"radius":0.001,
+					"timeStay":15,
+					"timeMove":5,
+					"damage":10
+				}
+			]
+		},
+		"battle_royale_02_test" :
+		{
+			"startZoneTimeShow" : 45,
+			"startZoneTimeStay" : 45,
+			"zones" : [
+				{
+					"radius":800,
+					"timeStay":250,
+					"timeMove":90,
+					"damage":1
+				},
+				{
+					"radius":400,
+					"timeStay":450,
+					"timeMove":100,
+					"damage":2
+				},
+				{
+					"radius":250,
+					"timeStay":100,
+					"timeMove":30,
+					"damage":4
+				},
+				{
+					"radius":80,
+					"timeStay":30,
+					"timeMove":15,
+					"damage":6
+				},
+				{
+					"radius":20,
+					"timeStay":15,
+					"timeMove":10,
+					"damage":10
+				},
+				{
+					"radius":10,
+					"timeStay":15,
+					"timeMove":5,
+					"damage":10
+				},
+				{
+					"radius":0.001,
+					"timeStay":15,
+					"timeMove":5,
+					"damage":10
+				}
+			]
+		},
+		"battle_royale_02" :
+		{
+			"startZoneTimeShow" : 45,
+			"startZoneTimeStay" : 45,
+			"zones" : [
+				{
+					"radius":800,
+					"timeStay":250,
+					"timeMove":90,
+					"damage":1
+				},
+				{
+					"radius":400,
+					"timeStay":450,
+					"timeMove":100,
+					"damage":2
+				},
+				{
+					"radius":250,
+					"timeStay":100,
+					"timeMove":30,
+					"damage":4
+				},
+				{
+					"radius":80,
+					"timeStay":30,
+					"timeMove":15,
+					"damage":6
+				},
+				{
+					"radius":20,
+					"timeStay":15,
+					"timeMove":10,
+					"damage":10
+				},
+				{
+					"radius":10,
+					"timeStay":15,
+					"timeMove":5,
+					"damage":10
+				},
+				{
+					"radius":0.001,
+					"timeStay":15,
+					"timeMove":5,
+					"damage":10
+				}
+			]
+		},
+		"startZoneTimeShow" : 180,
+        "startZoneTimeStay" : 120,
+        "zones" : [
+			{
+				"radius":800,
+				"timeStay":250,
+				"timeMove":90,
+				"damage":1
+			},
+			{
+				"radius":400,
+				"timeStay":450,
+				"timeMove":100,
+				"damage":2
+			},
+			{
+				"radius":250,
+				"timeStay":100,
+				"timeMove":30,
+				"damage":4
+			},
+			{
+				"radius":80,
+				"timeStay":30,
+				"timeMove":15,
+				"damage":6
+			},
+			{
+                "radius":10,
+                "timeStay":15,
+				"timeMove":5,
+				"damage":10
+			},
+			{
+                "radius":0.001,
+                "timeStay":15,
+				"timeMove":5,
+				"damage":10
+			}
+        ]
+    },
+    "BattleRoyale":{ "minCountPlayers":5, "maxCountPlayers":30, "startTimer":30 },
+   "BattleRoyaleV4":{"5009":{ "minCountPlayers":10, "maxCountPlayers":30, "startTimer":30 }, "5011":{ "minCountPlayers":10, "maxCountPlayers":100, "startTimer":35 }, "5538":{ "minCountPlayers":10, "maxCountPlayers":30, "startTimer":30 }, "5039":{ "minCountPlayers":10, "maxCountPlayers":30, "startTimer":30 }},
+    
+    "PlayerControlsDynamicFPS":
+    {
+    	"joystickInertionMovements":
+    	{
+    		"speedInsideZone":13,
+		    "speedOutsideZone":0.1,
+            "zoneValue":1
+		},
+
+		"joystickInertionJetpack":
+		{
+		   "speedInsideZone":4,
+           "speedOutsideZone":4,
+           "zoneValue":0.5
+		},
+
+        "joystickInertionJump":
+		{
+			"speedInsideZone":2,
+            "speedOutsideZone":2.5,
+            "zoneValue":0.5
+		},
+
+		"speedModifierInShooting":0.8,
+		"jumpDynamicModifier":1.15,
+		"jumpForceModifier":1,
+
+		"fallDamageMinHeight":10000,
+		"fallDamageMaxHeight":10000,
+
+		"ballisticBullets":1,
+		"baseBulletGravity":0,
+		"sniperBulletGravity":0,
+
+		"enableRecoil":1,
+		"enableScopeMoving":1,
+		"enableFovChanging":0,
+
+		"weaponChangeSpeed":187,
+
+		"selfRocketRadius":0.8,
+		"selfRocketDamage":0.7,
+		"rocketJumpImpulseModifier":0.6
+    },
+
+	"PlayerControlsDynamicBR":
+    {
+    	"joystickInertionMovements":
+    	{
+    		"speedInsideZone":5,
+		    "speedOutsideZone":5,
+            "zoneValue":0.5
+		},
+		"joystickInertionGlider":
+		{
+		   "speedInsideZone":2,
+           "speedOutsideZone":2,
+           "zoneValue":0.5
+		},
+        "joystickInertionJump":
+		{
+			"speedInsideZone":2,
+            "speedOutsideZone":2.5,
+            "zoneValue":0.5
+		},
+
+		"jumpDynamicModifier":1,
+		"jumpForceModifier":1,
+
+		"fallDamageMinHeight":12,
+		"fallDamageMaxHeight":35,
+
+		"ballisticBullets":1,
+		"baseBulletGravity":0,
+		"sniperBulletSpeed":400,
+		"sniperBulletGravity":0.2,
+
+		"enableRecoil":1,
+		"enableScopeMoving":1,
+		"enableFovChanging":0,
+
+		"selfRocketRadius":0.8,
+		"selfRocketDamage":0.7,
+		"rocketJumpImpulseModifier":0.6
+    },
+
+    "GameModePlayerSettingsDependence_v2":
+    {
+
+    },
+
+    "MoveSchemePlayerSettings":
+    {
+    	"1":
+    	{
+    		"baseBulletGravity":0,
+			"sniperBulletGravity":0,
+			"enableRecoil":1,
+			"enableScopeMoving":1,
+			"enableFovChanging":0
+    	},
+		"2":
+		{
+			"selfRocketRadius":0.8,
+			"selfRocketDamage":0.7
+		}
+    },
+
+    "MoveSchemePlayerSettingsDependence_v2":
+    {
+    	"Realistic":
+    	{
+    		"baseBulletBallistic":1,
+    		"sniperBulletBallistic":1,
+    		"baseBulletSpeed":240,
+    		"baseBulletGravity":0.1,
+    		"sniperBulletSpeed":240,
+    		"sniperBulletGravity":0.1
+    	},
+		"Cyber":
+		{
+				
+		}
+    },
+
+    "RecoilAndScopeSettings":
+    {
+    	"maxRecoilScopeForceMoveSpeed":12,
+    	"recoilForceImpulseModifierSniperInScope":1.2,
+    	"recoilForceImpulseModifierSemiautoInScope":12,
+			"maxRecoilScopeForceMoveSpeedSniper":12,
+			"recoilForceImpulseModifierSniper":1.2
+    },
+
+    "AutoStartInMatchV2": 1,
+	"AutoStartNextMatchTimeV2": 15,
+
+	"inhouseAnalytics.enabled": 1,
+	"inhouseAnalytics.url": "https://clickhouse1.lightmap.ru/v2/events",
+	"inhouseAnalytics.delayInSeconds": 5,
+	"inhouseAnalytics.intervalInSeconds": 60,
+	"inhouseAnalytics.storageLimit": 30,
+	"inhouseAnalytics.memoryLimit": 50,
+
+	"configSystemMode": 1,
+	"ConfigsGroups": [[3,4,13,50,81,87], [2,16,38], [8,9,11,47,51,53,78,88]],
+	
+	"MobileOperatorPaying": "ALL",
+	"MobileOperatorOrAll": "MO",
+	"MobileOperatorLevel": 3,
+
+	"Matcmmaking_v2": true
+}
