@@ -1,0 +1,241 @@
+{
+	"FriendsUrl": "https://pixelgunserver.com/~game/action.php",
+	"MaxFriendCount": 100,
+	"MaxMemberClanCount": 20,
+	"TimeUpdateFriendInfo": 25,
+	"TimeUpdateOnlineInGame": 15,
+	"TimeUpdateInfoInProfile": 25,
+	"TimeUpdateStartCheckIfNullResponce": 10,
+	"TimeUpdateLeaderboardIfNullResponce": 20,
+	"TimeUpdatePixelbookInfo": 900,
+	"TimeWaitLoadPossibleFriends": 7,
+	"PauseUpdateLeaderboard": 15,
+	"HistoryPrivateMessageLength": 50,
+	"NurseryUnlockLevel": -1,
+	"FacebookLimits" : {
+		"GreenLimit" : 7,
+		"RedLimit" : 2
+	},
+	"TwitterLimits" : {
+		"GreenLimit" : 7,
+		"RedLimit" : 2,
+		"MultyWinLimit" : 1,
+		"ArenaLimit" : 1
+	},
+
+	"CheaterDetectParameters" : {
+		"Paying" : {
+			"Coins" : 18000,
+			"GemsCurrency" : 10800
+		},
+		"NonPaying" : {
+			"Coins" : 50000,
+			"GemsCurrency" : 900
+		}
+	},
+	"DayUpdateTimeLimiter" : 1,
+	"JoinBaseResponseOn":[ "com.iplay.assistant.pixelgun.cn", "com.jbro129.mod.pg3dlauncher" ],
+	"UseSqlLobby": 0,
+	"ABTestBankEnable": 0,
+	"EnableLogForIDs" : ["202612977", "202753514", "202771412", "203960374", "199065936" ],
+	"EnableWebSocketLogForIDs" : ["211244127", "202771412", "183982149", "182937679", "183003675", "183008713", "195450880" ],
+	"EnableFpsCounterIds": ["165119502"],
+	"WaitForOpponnents" : 35,
+	"WaitForOpponnentsFull" : 35,
+	"RespawnDelayParameters":{"0":0, "2":0, "4":0, "5":0, "19":3},
+	"RespawnDelayParameters_v2":{"0":0.05, "1":0.05, "2":0.05, "4":0.05, "5":0.05, "8":0.05, "19":3},
+    "BattleRoyale":{ "minCountPlayers":5, "maxCountPlayers":30, "startTimer":30 },
+    "BattleRoyaleV4":{"5009":{ "minCountPlayers":10, "maxCountPlayers":30, "startTimer":30 }, "5011":{ "minCountPlayers":10, "maxCountPlayers":100, "startTimer":35 }, "5538":{ "minCountPlayers":10, "maxCountPlayers":30, "startTimer":30 }, "5039":{ "minCountPlayers":10, "maxCountPlayers":30, "startTimer":30 }},
+    "ZoneSettings" : {
+        "startZoneTimeShow" : 30,
+        "startZoneTimeStay" : 45,
+        "zones" : [
+            {
+                "radius":120,
+                "timeStay":45,
+				"timeMove":25,
+				"damage":1
+            },
+            {
+                "radius":80,
+                "timeStay":45,
+				"timeMove":15,
+				"damage":2
+            },
+            {
+                "radius":50,
+                "timeStay":30,
+				"timeMove":10,
+				"damage":4
+            },
+            {
+                "radius":25,
+                "timeStay":20,
+				"timeMove":7,
+				"damage":6
+			},
+			{
+                "radius":10,
+                "timeStay":15,
+				"timeMove":5,
+				"damage":10
+			},
+			{
+                "radius":0.001,
+                "timeStay":15,
+				"timeMove":5,
+				"damage":10
+			}
+        ]
+    },
+
+	"PlayerControlsDynamicFPS":
+    {
+    	"joystickInertionMovements":
+    	{
+    		"speedInsideZone":13,
+		    "speedOutsideZone":0.1,
+            "zoneValue":1
+		},
+
+		"joystickInertionJetpack":
+		{
+		   "speedInsideZone":4,
+           "speedOutsideZone":4,
+           "zoneValue":0.5
+		},
+
+        "joystickInertionJump":
+		{
+			"speedInsideZone":2,
+            "speedOutsideZone":2.5,
+            "zoneValue":0.5
+		},
+
+		"speedModifierInShooting":0.8,
+		"jumpDynamicModifier":1.15,
+		"jumpForceModifier":1,
+
+		"fallDamageMinHeight":10000,
+		"fallDamageMaxHeight":10000,
+
+		"ballisticBullets":1,
+		"baseBulletGravity":0,
+		"sniperBulletGravity":0,
+
+		"enableRecoil":1,
+		"enableScopeMoving":1,
+		"enableFovChanging":0,
+
+		"weaponChangeSpeed":187,
+
+		"selfRocketRadius":0.8,
+		"selfRocketDamage":0.7,
+		"rocketJumpImpulseModifier":0.6
+    },
+
+	"PlayerControlsDynamicBR":
+    {
+    	"joystickInertionMovements":
+    	{
+    		"speedInsideZone":5,
+		    "speedOutsideZone":5,
+            "zoneValue":0.5
+		},
+		"joystickInertionGlider":
+		{
+		   "speedInsideZone":2,
+           "speedOutsideZone":2,
+           "zoneValue":0.5
+		},
+        "joystickInertionJump":
+		{
+			"speedInsideZone":2,
+            "speedOutsideZone":2.5,
+            "zoneValue":0.5
+		},
+
+		"jumpDynamicModifier":1,
+		"jumpForceModifier":1,
+
+		"fallDamageMinHeight":12,
+		"fallDamageMaxHeight":35,
+
+		"ballisticBullets":1,
+		"baseBulletGravity":0,
+		"sniperBulletSpeed":400,
+		"sniperBulletGravity":0.2,
+
+		"enableRecoil":1,
+		"enableScopeMoving":1,
+		"enableFovChanging":0,
+
+		"selfRocketRadius":0.8,
+		"selfRocketDamage":0.7,
+		"rocketJumpImpulseModifier":0.6
+    },
+
+    "GameModePlayerSettingsDependence_v2":
+    {
+    },
+
+    "MoveSchemePlayerSettings":
+    {
+    	"1":
+    	{
+    		"baseBulletGravity":0,
+			"sniperBulletGravity":0,
+			"enableRecoil":1,
+			"enableScopeMoving":1,
+			"enableFovChanging":0
+    	},
+		"2":
+		{
+			"selfRocketRadius":0.8,
+			"selfRocketDamage":0.7
+		}
+    },
+
+    "MoveSchemePlayerSettingsDependence_v2":
+    {
+    	"Realistic":
+    	{
+    		"baseBulletBallistic":1,
+    		"sniperBulletBallistic":1,
+    		"baseBulletSpeed":240,
+    		"baseBulletGravity":0.1,
+    		"sniperBulletSpeed":240,
+    		"sniperBulletGravity":0.1
+    	},
+		"Cyber":
+		{
+		}
+    },
+
+    "RecoilAndScopeSettings":
+    {
+    	"maxRecoilScopeForceMoveSpeed":12,
+    	"recoilForceImpulseModifierSniperInScope":1.2,
+    	"recoilForceImpulseModifierSemiautoInScope":12,
+			"maxRecoilScopeForceMoveSpeedSniper":12,
+			"recoilForceImpulseModifierSniper":1.2
+    },
+
+
+    "AutoStartInMatch": 1,
+    "AutoStartNextMatchTime": -1,
+
+    "AutoStartInMatchV2": 1,
+    "AutoStartNextMatchTimeV2": 15,
+
+	"inhouseAnalytics.enabled": 1,
+	"inhouseAnalytics.url": "https://clickhouse1.lightmap.ru/v2/events",
+	"inhouseAnalytics.delayInSeconds": 5,
+	"inhouseAnalytics.intervalInSeconds": 60,
+	"inhouseAnalytics.storageLimit": 30,
+	"inhouseAnalytics.memoryLimit": 50,
+
+    "configSystemMode": 1,
+    "configSystemMode-v2": 2,
+    "ConfigsGroups": [[3,4,13,50,81,87], [2,16,38], [8,9,11,47,51,53,78,88]]
+}
