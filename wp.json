@@ -1,0 +1,37 @@
+{
+	"FriendsUrl": "https://pixelgunserver.com/~rilisoft/action.php",
+	"_FriendsUrl":"http://192.168.1.206:9000/~rilisoft/action.php",
+	"MaxFriendCount": 100,
+	"MaxMemberClanCount": 20,
+	"TimeUpdateFriendInfo": 30,
+	"TimeUpdateOnlineInGame": 12,
+	"TimeUpdateInfoInProfile": 30,
+	"TimeUpdateStartCheckIfNullResponce": 10,
+	"TimeUpdateLeaderboardIfNullResponce": 20,
+	"TimeUpdatePixelbookInfo": 900,
+	"TimeWaitLoadPossibleFriends": 7,
+	"PauseUpdateLeaderboard": 60,
+	"HistoryPrivateMessageLength": 20,
+
+	"FacebookLimits" : {
+		"GreenLimit" : 5,
+		"RedLimit" : 2  
+	},
+	"TwitterLimits" : {
+		"GreenLimit" : 5,
+		"RedLimit" : 2,
+		"MultyWinLimit" : 1,
+		"ArenaLimit" : 1
+	},
+
+	"CheaterDetectParameters" : {
+		"Paying" : {
+			"Coins" : 18000,
+			"GemsCurrency" : 10800
+		},
+		"NonPaying" : {
+			"Coins" : 50000,
+			"GemsCurrency" : 900
+		}
+	}
+}
